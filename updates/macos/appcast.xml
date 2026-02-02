@@ -8,5 +8,25 @@
     <description>Release feed for Valo on macOS</description>
     <language>en</language>
 
+    <item>
+      <title>Version 2.4.60</title>
+
+      <sparkle:version>650</sparkle:version>
+      <sparkle:shortVersionString>2.4.60</sparkle:shortVersionString>
+
+      <description><![CDATA[
+        <ul>
+          <li>Bug fixes</li>
+          <li>Performance improvements</li>
+        </ul>
+      ]]></description>
+
+      <enclosure
+        url="https://valoapp.github.io/valo-updates/updates/macos/releases/Valo-2.4.60.zip"
+        length="68141268"
+        type="application/octet-stream"
+        sparkle:edSignature="CtEaT6Bkky7SF0MjXTcoFz8fgRFSdzYAU9TM3JKQCdDRl/7i30P9tO23UL8JEqhHPGdYhgKaHIJHG9SrTG4VCw=="/>
+    </item>
+
   </channel>
 </rss>
