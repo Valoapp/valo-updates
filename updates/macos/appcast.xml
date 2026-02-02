@@ -22,10 +22,10 @@
       ]]></description>
 
       <enclosure
-        url="https://valoapp.github.io/valo-updates/updates/macos/releases/Valo-2.4.60.zip"
-        length="68141268"
-        type="application/octet-stream"
-        sparkle:edSignature="CtEaT6Bkky7SF0MjXTcoFz8fgRFSdzYAU9TM3JKQCdDRl/7i30P9tO23UL8JEqhHPGdYhgKaHIJHG9SrTG4VCw=="/>
+        url="https://valoapp.github.io/valo-updates/updates/macos/releases/Valo-2.4.60.dmg"
+        length="66359846"
+        type="application/x-apple-diskimage"
+        sparkle:edSignature="Aionr/tmxB7qgkJf5lp65By4DcwQDqNkTVn8HV3Gf49egEZ77vju3BRix8andidWov3nscijuAYjnXXLppAuCg=="/>
     </item>
 
   </channel>
