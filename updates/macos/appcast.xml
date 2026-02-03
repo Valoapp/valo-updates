@@ -23,9 +23,9 @@
 
       <enclosure
         url="https://valoapp.github.io/valo-updates/updates/macos/releases/Valo-2.4.60.dmg"
-        length="66359846"
+        length="68069579"
         type="application/x-apple-diskimage"
-        sparkle:edSignature="Aionr/tmxB7qgkJf5lp65By4DcwQDqNkTVn8HV3Gf49egEZ77vju3BRix8andidWov3nscijuAYjnXXLppAuCg=="/>
+        sparkle:edSignature="QQTkWQGtCZ5IFPogcJaO4dTvdqt5kkJUuz7CMTZAJ6NTdFqMT3LCKXyLZjR1aq+c8NMw+OjQUl1q6VcawGxuCg=="/>
     </item>
 
   </channel>
