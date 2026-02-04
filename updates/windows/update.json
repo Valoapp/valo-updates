@@ -1,9 +1,9 @@
 {
-    "version": "2.4.60",
-    "build": 550,
-    "url": "https://valoapp.github.io/valo-updates/updates/windows/releases/Valo-2.4.60.exe",
-    "mandatory": false,
-    "release_notes": "Bug fixes and performance improvements",
-    "sha256": "asdasdasd",
-    "minimum_build": 500
+  "build": 551,
+  "release_notes": "Automated CI build 2.4.61",
+  "sha256": "c6c1344d877defafeea612e5b33dc19ffc0c1561c53e6ef235006e4b481b5a06",
+  "minimum_build": 551,
+  "mandatory": false,
+  "url": "https://github.com/Valoapp/valo/releases/download/v2.4.61/Valo-2.4.61.exe",
+  "version": "2.4.61"
 }
