@@ -1,0 +1,97 @@
+name: macos Publish (Valo)
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version (e.g. 2.4.60)"
+        required: true
+      build:
+        description: "Build number (e.g. 42)"
+        required: true
+      artifact:
+        description: "Artifact filename in updates/macos/releases/"
+        required: true
+      minimum_build:
+        description: "Minimum allowed build (force update)"
+        required: true
+        default: "0"
+
+jobs:
+  macos-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Checkout valo-updates
+      - name: Checkout valo-updates
+        uses: actions/checkout@v4
+
+      # 2️⃣ Validate artifact exists
+      - name: Validate macos artifact
+        shell: bash
+        run: |
+          FILE="updates/macos/releases/${{ inputs.artifact }}"
+
+          if [ ! -f "$FILE" ]; then
+            echo "❌ Artifact not found: $FILE"
+            exit 1
+          fi
+
+          echo "✅ Artifact found: $FILE"
+
+      # 3️⃣ Compute SHA256
+      - name: Compute SHA256
+        shell: bash
+        run: |
+          FILE="updates/macos/releases/${{ inputs.artifact }}"
+          SHA=$(shasum -a 256 "$FILE" | awk '{print $1}')
+          echo "SHA256=$SHA" >> $GITHUB_ENV
+          echo "SHA256: $SHA"
+
+      # 4️⃣ Update Sparkle appcast
+      - name: Update appcast.xml
+        shell: bash
+        run: |
+          APPCAST="updates/macos/appcast.xml"
+          PUB_DATE=$(date -u +"%a, %d %b %Y %H:%M:%S %z")
+
+          ITEM=$(cat <<EOF
+            <item>
+              <title>Valo ${{ inputs.version }}</title>
+              <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+              <sparkle:minimumAutoupdateVersion>${{ inputs.minimum_build }}</sparkle:minimumAutoupdateVersion>
+              <pubDate>$PUB_DATE</pubDate>
+              <enclosure
+                url="https://valoapp.github.io/valo-updates/updates/macos/releases/${{ inputs.artifact }}"
+                sparkle:version="${{ inputs.version }}"
+                sparkle:shortVersionString="${{ inputs.version }}"
+                sparkle:edSignature="${{ env.SHA256 }}"
+                type="application/octet-stream" />
+            </item>
+          EOF
+          )
+
+          awk -v item="$ITEM" '
+            /<\/channel>/ { print item }
+            { print }
+          ' "$APPCAST" > appcast.tmp && mv appcast.tmp "$APPCAST"
+
+      # 5️⃣ Configure git identity
+      - name: Configure git
+        run: |
+          git config user.name "Valo CI"
+          git config user.email "ci@valoapp.com"
+
+      # 6️⃣ Commit & push
+      - name: Commit macos release
+        run: |
+          git add updates/macos
+          git status
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "macos release ${{ inputs.version }} (${{ inputs.build }})"
+          git push
