@@ -22,7 +22,7 @@
       ]]></description>
 
       <enclosure
-        url="https://valoapp.github.io/valo-updates/updates/macos/releases/Valo-2.4.61.dmg"
+        url="https://github.com/your-org/valo-updates/releases/download/valo-macos-v2.4.61/Valo-2.4.61.dmg"
         length="66348498"
         type="application/x-apple-diskimage"
         sparkle:edSignature="IvnIXFgh5q9drWUCczHD4pVrCkznzvUqpY2PXgJ4J5ofseehYocmacq8a50/Sw/SPXY1zXSp13T7XyI6fL7/DQ=="/>
@@ -42,7 +42,7 @@
       ]]></description>
 
       <enclosure
-        url="https://valoapp.github.io/valo-updates/updates/macos/releases/Valo-2.4.60.dmg"
+        url="https://github.com/your-org/valo-updates/releases/download/valo-macos-v2.4.60/Valo-2.4.60.dmg"
         length="68069579"
         type="application/x-apple-diskimage"
         sparkle:edSignature="QQTkWQGtCZ5IFPogcJaO4dTvdqt5kkJUuz7CMTZAJ6NTdFqMT3LCKXyLZjR1aq+c8NMw+OjQUl1q6VcawGxuCg=="/>
