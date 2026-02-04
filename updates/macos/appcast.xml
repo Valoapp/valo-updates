@@ -9,6 +9,26 @@
     <language>en</language>
 
     <item>
+      <title>Version 2.4.61</title>
+
+      <sparkle:version>551</sparkle:version>
+      <sparkle:shortVersionString>2.4.61</sparkle:shortVersionString>
+
+      <description><![CDATA[
+        <ul>
+          <li>Bug fixes</li>
+          <li>Performance improvements</li>
+        </ul>
+      ]]></description>
+
+      <enclosure
+        url="https://valoapp.github.io/valo-updates/updates/macos/releases/Valo-2.4.61.dmg"
+        length="66348498"
+        type="application/x-apple-diskimage"
+        sparkle:edSignature="IvnIXFgh5q9drWUCczHD4pVrCkznzvUqpY2PXgJ4J5ofseehYocmacq8a50/Sw/SPXY1zXSp13T7XyI6fL7/DQ=="/>
+
+    </item>
+    <item>
       <title>Version 2.4.60</title>
 
       <sparkle:version>550</sparkle:version>

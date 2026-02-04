@@ -1,0 +1,9 @@
+{
+    "version": "2.4.61",
+    "build": 551,
+    "url": "https://valoapp.github.io/valo-updates/updates/windows/releases/Valo-2.4.60.exe",
+    "mandatory": false,
+    "release_notes": "Bug fixes and performance improvements",
+    "sha256": "asdasdasd",
+    "minimum_build": 500
+}
