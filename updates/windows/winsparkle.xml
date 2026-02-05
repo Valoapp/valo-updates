@@ -5,7 +5,7 @@
       <title>Valo Updates</title>
       <item>
         <title>Valo 2.4.71</title>
-        <sparkle:version>2.4.71</sparkle:version>
+        <sparkle:version>561</sparkle:version>
         <enclosure
           url="https://github.com/Valoapp/valo-updates/releases/download/v2.4.71/Valo-2.4.71.exe"
           sparkle:version="2.4.71"
