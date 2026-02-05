@@ -8,56 +8,15 @@
     <description>Release feed for Valo on macOS</description>
     <language>en</language>
 
-    <item>
-      <title>Version 2.4.61</title>
-
-      <sparkle:version>551</sparkle:version>
-      <sparkle:shortVersionString>2.4.61</sparkle:shortVersionString>
-
-      <description><![CDATA[
-        <ul>
-          <li>Bug fixes</li>
-          <li>Performance improvements</li>
-        </ul>
-      ]]></description>
-
-      <enclosure
-        url="https://github.com/your-org/valo-updates/releases/download/valo-macos-v2.4.61/Valo-2.4.61.dmg"
-        length="66348498"
-        type="application/x-apple-diskimage"
-        sparkle:edSignature="IvnIXFgh5q9drWUCczHD4pVrCkznzvUqpY2PXgJ4J5ofseehYocmacq8a50/Sw/SPXY1zXSp13T7XyI6fL7/DQ=="/>
-
-    </item>
-    <item>
-      <title>Version 2.4.60</title>
-
-      <sparkle:version>550</sparkle:version>
-      <sparkle:shortVersionString>2.4.60</sparkle:shortVersionString>
-
-      <description><![CDATA[
-        <ul>
-          <li>Bug fixes</li>
-          <li>Performance improvements</li>
-        </ul>
-      ]]></description>
-
-      <enclosure
-        url="https://github.com/your-org/valo-updates/releases/download/valo-macos-v2.4.60/Valo-2.4.60.dmg"
-        length="68069579"
-        type="application/x-apple-diskimage"
-        sparkle:edSignature="QQTkWQGtCZ5IFPogcJaO4dTvdqt5kkJUuz7CMTZAJ6NTdFqMT3LCKXyLZjR1aq+c8NMw+OjQUl1q6VcawGxuCg=="/>
-    </item>
-
-  </channel>
-</rss>
+    
 <item>
   <title>Valo 2.4.63</title>
   <sparkle:version>2.4.63</sparkle:version>
   <sparkle:shortVersionString>2.4.63</sparkle:shortVersionString>
-  <pubDate>Thu, 05 Feb 2026 08:31:26 +0000</pubDate>
+  <pubDate>Thu, 05 Feb 2026 09:00:53 +0000</pubDate>
   <enclosure
     "url": "https://github.com/valoapp/valo-updates/releases/download/v2.4.63/Valo-2.4.63.dmg",
-    sparkle:edSignature="pll0QQyJhnXA8NXqmz5parHQ68U9ybuFAfxjt3y36yq72VCdkTi8YPH/J/tVcYiLqgCjDlm6EFXin0IYwq4qAg=="
-    length="66353678"
+    sparkle:edSignature="vqU/6MwKBr58By+liXBu6dSbejWM9ok3NM+pAcr5pk1JX+Rga+WU0I6xtltVIvgBfLDEAcRnLD8DgOEfmqWQBg=="
+    length="66353277"
     type="application/octet-stream" />
 </item>
