@@ -1,9 +1,18 @@
 {
-    "version": "2.4.61",
-    "build": 551,
-    "url": "https://valoapp.github.io/valo-updates/updates/windows/releases/Valo-2.4.60.exe",
-    "mandatory": false,
-    "release_notes": "Bug fixes and performance improvements",
-    "sha256": "asdasdasd",
-    "minimum_build": 500
+  "platform": "macos",
+  "channel": "stable",
+  "version": "2.4.63",
+  "build": "553",
+  "minimum_build" = "553",
+  "releasedAt": "Thu, 05 Feb 2026 08:31:26 +0000",
+  "artifact": {
+    "type": "dmg",
+    "url": "https://github.com/valoapp/valo-updates/releases/download/v2.4.63/Valo-2.4.63.dmg",
+    "size": 66353678,
+    "sparkleEdSignature": "pll0QQyJhnXA8NXqmz5parHQ68U9ybuFAfxjt3y36yq72VCdkTi8YPH/J/tVcYiLqgCjDlm6EFXin0IYwq4qAg=="
+  },
+  "integrity": {
+    "algorithm": "ed25519",
+    "provider": "sparkle"
+  }
 }
