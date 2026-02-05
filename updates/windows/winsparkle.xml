@@ -1,19 +1,19 @@
-  <?xml version="1.0" encoding="utf-8"?>
-  <rss version="2.0"
-      xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-    <channel>
-      <title>Valo Updates</title>
-      <item>
-        <title>Valo 2.4.71</title>
-        <sparkle:version>561</sparkle:version>
-        <sparkle:shortVersionString>2.4.71</sparkle:shortVersionString>
-        <enclosure
-          url="https://github.com/Valoapp/valo-updates/releases/download/v2.4.71/Valo-2.4.71.exe"
-          sparkle:version="2.4.71"
-          type="application/octet-stream" />
-        <description>
-          Automated CI build 2.4.71
-        </description>
-      </item>
-    </channel>
-  </rss>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+    xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Valo Updates</title>
+    <item>
+      <title>Valo 2.4.71</title>
+      <sparkle:version>561</sparkle:version>
+      <sparkle:shortVersionString>2.4.71</sparkle:shortVersionString>
+      <enclosure
+        url="https://github.com/Valoapp/valo-updates/releases/download/v2.4.71/Valo-2.4.71.exe"
+        sparkle:version="2.4.71"
+        type="application/octet-stream" />
+      <description>
+        Automated CI build 2.4.71
+      </description>
+    </item>
+  </channel>
+</rss>
