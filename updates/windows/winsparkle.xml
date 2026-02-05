@@ -4,14 +4,14 @@
     <channel>
       <title>Valo Updates</title>
       <item>
-        <title>Valo 2.4.69</title>
-        <sparkle:version>2.4.69</sparkle:version>
+        <title>Valo 2.4.70</title>
+        <sparkle:version>2.4.70</sparkle:version>
         <enclosure
-          url="https://github.com/Valoapp/valo-updates/releases/download/v2.4.69/Valo-2.4.69.exe"
-          sparkle:version="2.4.69"
+          url="https://github.com/Valoapp/valo-updates/releases/download/v2.4.70/Valo-2.4.70.exe"
+          sparkle:version="2.4.70"
           type="application/octet-stream" />
         <description>
-          Automated CI build 2.4.69
+          Automated CI build 2.4.70
         </description>
       </item>
     </channel>
