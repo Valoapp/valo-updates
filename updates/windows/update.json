@@ -1,9 +1,9 @@
 {
-  "minimum_build": 558,
-  "url": "https://github.com/Valoapp/valo-updates/releases/download/v2.4.68/Valo-2.4.68.exe",
-  "version": "2.4.68",
+  "release_notes": "Automated CI build 2.4.69",
+  "build": 559,
   "mandatory": false,
-  "release_notes": "Automated CI build 2.4.68",
-  "build": 558,
-  "sha256": "6bce9df54aaf3e2eaca9e8a6cf4195ac622ed8250d922909f02968bfb4eb88c1"
+  "url": "https://github.com/Valoapp/valo-updates/releases/download/v2.4.69/Valo-2.4.69.exe",
+  "minimum_build": 559,
+  "version": "2.4.69",
+  "sha256": "4b9923d1ccb4cad2a36c85e3e5ebd8ab224bf9e4e1e571eca6f2f3bef4efec2d"
 }
