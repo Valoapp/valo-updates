@@ -10,14 +10,15 @@
 
     
 
+
 <item>
   <title>Valo 2.4.63</title>
   <sparkle:version>2.4.63</sparkle:version>
   <sparkle:shortVersionString>2.4.63</sparkle:shortVersionString>
-  <pubDate>Thu, 05 Feb 2026 09:14:52 +0000</pubDate>
+  <pubDate>Thu, 05 Feb 2026 09:24:37 +0000</pubDate>
   <enclosure
     "url": "https://github.com/valoapp/valo-updates/releases/download/v2.4.63/Valo-2.4.63.dmg",
-    sparkle:edSignature="iYgtz4RxRJd4Tcj8zL6ivqmQGiLPAdYKTorM8equZU2olc4/D6f2EJJ9anzEhwnbktiKGDhrmcnqUw3Iz+v4BQ=="
-    length="66353387"
+    sparkle:edSignature="56W5jTk9UkHV5FRAyig4YzemGzEu3IPZ7cmLSaqfovdL0oU+wQWpDddgb6r5J1rc1+iZp9Qg9xXiFfjKmQOZDw=="
+    length="66353356"
     type="application/octet-stream" />
 </item>
