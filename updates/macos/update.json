@@ -4,12 +4,12 @@
   "version": "2.4.63",
   "build": "553",
   "minimum_build" = "553",
-  "releasedAt": "Thu, 05 Feb 2026 10:07:02 +0000",
+  "releasedAt": "Thu, 05 Feb 2026 10:18:16 +0000",
   "artifact": {
     "type": "dmg",
     "url": "https://github.com/valoapp/valo-updates/releases/download/v2.4.63/Valo-2.4.63.dmg",
-    "size": 66353389,
-    "sparkleEdSignature": "f7PstrpeTerimWkcliBm2DSQUKSqo3ZrQWy/S0zAJ4X9jtG6VLZgiPp2+SvEVpNtBMGkRBofAggaOT09DSUpDA=="
+    "size": 66353424,
+    "sparkleEdSignature": "jIely/uzgDd74Kybp/hJPLZ47Fqhg0R+t/OwZapq3k40sWX1nU6pnxf2Y6LxXdpgegkPCwu12H05CtLfLPn6DQ=="
   },
   "integrity": {
     "algorithm": "ed25519",
