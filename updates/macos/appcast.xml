@@ -283,5 +283,16 @@
     length="66747303"
     type="application/octet-stream" />
 </item>
+<item>
+  <title>Valo 2.4.90</title>
+  <pubDate>Mon, 16 Feb 2026 11:44:30 +0000</pubDate>
+  <enclosure
+    url="https://github.com/valoapp/valo-updates/releases/download/v2.4.90/Valo-2.4.90.dmg"
+    sparkle:version="580"
+    sparkle:shortVersionString="2.4.90"
+    sparkle:edSignature="/K9OFNG8ycSAx4x69HhGsD8OHPStXWtLZrKs5boijDrb7dz+5WLn4iXY32Yt6x4RB5qx+ilEhmQNSl0GAUb4CQ=="
+    length="66735620"
+    type="application/octet-stream" />
+</item>
 </channel>
 </rss>
