@@ -1,15 +1,15 @@
 {
   "platform": "macos",
   "channel": "stable",
-  "version": "2.4.97",
-  "build": "587",
-  "minimum_build": "587",
-  "releasedAt": "Thu, 19 Feb 2026 16:59:43 +0000",
+  "version": "2.4.99",
+  "build": "589",
+  "minimum_build": "589",
+  "releasedAt": "Fri, 20 Feb 2026 14:23:07 +0000",
   "artifact": {
     "type": "dmg",
-    "url": "https://github.com/valoapp/valo-updates/releases/download/v2.4.97/Valo-2.4.97.dmg",
-    "size": 66742388,
-    "sparkleEdSignature": "Y7FtzuiaVoZ4zOH+MEokwezmJB5uVutaQka83NHv82F8R6K3dD5UE+ScqJsuca/SzDCMkAxhC4zrMC9q/uJaDA=="
+    "url": "https://github.com/valoapp/valo-updates/releases/download/v2.4.99/Valo-2.4.99.dmg",
+    "size": 66740247,
+    "sparkleEdSignature": "ApXMzixTjoFaAYTFV8dP5UcIO9DHpZESxJipTeOMN/1Xol9mefW2KoRHdAokXCMTkckMvLrjmD8MfbkRLDeTCg=="
   },
   "integrity": {
     "algorithm": "ed25519",
