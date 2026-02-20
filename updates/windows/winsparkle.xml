@@ -9,7 +9,7 @@
       <sparkle:shortVersionString>2.4.98</sparkle:shortVersionString>
       <enclosure
         url="https://github.com/Valoapp/valo-updates/releases/download/v2.4.98/Valo-2.4.98.exe"
-        sparkle:version="2.4.98"
+        sparkle:version="588"
         type="application/octet-stream" />
       <description>
         Automated CI build 2.4.98
