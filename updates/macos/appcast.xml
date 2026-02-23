@@ -382,5 +382,16 @@
     length="66740410"
     type="application/octet-stream" />
 </item>
+<item>
+  <title>Valo 2.5.1</title>
+  <pubDate>Mon, 23 Feb 2026 08:58:15 +0000</pubDate>
+  <enclosure
+    url="https://github.com/valoapp/valo-updates/releases/download/v2.5.1/Valo-2.5.1.dmg"
+    sparkle:version="591"
+    sparkle:shortVersionString="2.5.1"
+    sparkle:edSignature="HcXJfYYtDQAWJAeoxZJdGydi9mM870+ZFKGVV07uYD0FedMC9CZZ1U84lAA36yhpY4H71S/Y5ek/13Wf1yIDBA=="
+    length="66745392"
+    type="application/octet-stream" />
+</item>
 </channel>
 </rss>
