@@ -4,15 +4,15 @@
   <channel>
     <title>Valo Updates</title>
     <item>
-      <title>Valo 2.5.10</title>
-      <sparkle:version>600</sparkle:version>
-      <sparkle:shortVersionString>2.5.10</sparkle:shortVersionString>
+      <title>Valo 2.5.11</title>
+      <sparkle:version>601</sparkle:version>
+      <sparkle:shortVersionString>2.5.11</sparkle:shortVersionString>
       <enclosure
-        url="https://github.com/Valoapp/valo-updates/releases/download/v2.5.10/Valo-2.5.10.exe"
-        sparkle:version="600"
+        url="https://github.com/Valoapp/valo-updates/releases/download/v2.5.11/Valo-2.5.11.exe"
+        sparkle:version="601"
         type="application/octet-stream" />
       <description>
-        Automated CI build 2.5.10
+        Automated CI build 2.5.11
       </description>
     </item>
   </channel>
