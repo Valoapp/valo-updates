@@ -426,5 +426,16 @@
     length="67739673"
     type="application/octet-stream" />
 </item>
+<item>
+  <title>Valo 2.5.14</title>
+  <pubDate>Thu, 12 Mar 2026 08:47:13 +0000</pubDate>
+  <enclosure
+    url="https://github.com/valoapp/valo-updates/releases/download/v2.5.14/Valo-2.5.14.dmg"
+    sparkle:version="604"
+    sparkle:shortVersionString="2.5.14"
+    sparkle:edSignature="ijrgl1EH1D+xNb3te9LnwKfE+bL/cvLwRrqayUY7wMK272DA2xkxO9XJ2Wt7id00IBPmXRro87D5yWR3IR75AA=="
+    length="66899293"
+    type="application/octet-stream" />
+</item>
 </channel>
 </rss>
