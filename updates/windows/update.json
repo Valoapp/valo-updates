@@ -1,9 +1,9 @@
 {
-  "minimum_build": 611,
-  "release_notes": "Automated CI build 2.5.21",
-  "sha256": "e5a10697cf287c673e16d886420b9344c156df510491a66b5db8770adf5cfa77",
-  "build": 611,
-  "version": "2.5.21",
+  "minimum_build": 612,
   "mandatory": false,
-  "url": "https://github.com/Valoapp/valo-updates/releases/download/v2.5.21/Valo-2.5.21.exe"
+  "url": "https://github.com/Valoapp/valo-updates/releases/download/v2.5.22/Valo-2.5.22.exe",
+  "release_notes": "Automated CI build 2.5.22",
+  "build": 612,
+  "version": "2.5.22",
+  "sha256": "cd626c9879126d7f7c181c43ca3a2edd735b44f138ea13d7344a0fada1e66193"
 }
