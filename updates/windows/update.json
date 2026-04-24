@@ -1,9 +1,9 @@
 {
-  "mandatory": false,
-  "sha256": "9e4a85108ed0176ef5868927f07e3b4c5fd95b620514652486a8ce763da57d75",
-  "build": 632,
-  "minimum_build": 632,
   "url": "https://github.com/Valoapp/valo-updates/releases/download/v2.5.41/Valo-2.5.41.exe",
+  "release_notes": "Automated CI build 2.5.41",
   "version": "2.5.41",
-  "release_notes": "Automated CI build 2.5.41"
+  "mandatory": false,
+  "minimum_build": 632,
+  "build": 632,
+  "sha256": "b028b9d542007436b9878745e0c4f85c472042a1f31603b52bb31cca51009ffb"
 }
